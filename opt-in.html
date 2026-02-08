@@ -10,11 +10,23 @@
     h2 { font-size: 16px; margin-top: 22px; }
     .box { border: 1px solid #bbb; border-radius: 10px; padding: 14px 16px; background:#fafafa; }
     ul { margin-top: 8px; }
-    code { background:#f2f2f2; padding: 2px 6px; border-radius: 6px; }
     .links a { word-break: break-all; }
     .note { font-size: 13px; color:#444; }
     .spacer { height: 10px; }
-    iframe { width: 100%; height: 900px; border: 1px solid #bbb; border-radius: 10px; }
+
+    .doclink {
+      display: inline-block;
+      margin: 8px 0 0 0;
+      padding: 10px 14px;
+      border-radius: 10px;
+      border: 1px solid #bbb;
+      background: #fff;
+      text-decoration: none;
+      color: #111;
+      font-weight: bold;
+    }
+    .doclink:hover { background:#f2f2f2; }
+    iframe { width: 100%; height: 900px; border: 1px solid #bbb; border-radius: 10px; background:#fff; }
   </style>
 </head>
 
@@ -58,15 +70,24 @@
   <h2>Opt-in form (example)</h2>
   <p class="note">
     Below is the onboarding SMS consent form used to capture the subscriber's mobile number and explicit consent.
-    (Personal data should be redacted in any completed copies.)
+    Personal data should be redacted in any completed copies.
   </p>
 
-  <!-- Option A: Embed the PDF (recommended). Upload the PDF to the same static site and set the path below. -->
-  <iframe src="/Aspire_Workforce_Onboarding_SMS_Consent_Form.pdf" title="Aspire Workforce SMS Consent Form PDF"></iframe>
+  <!-- IMPORTANT: Always include a visible link. Some reviewers/browsers block PDF embeds. -->
+  <p>
+    <a class="doclink" href="/Aspire_Workforce_Onboarding_SMS_Consent_Form.pdf">
+      View the SMS Consent Form (PDF)
+    </a>
+  </p>
 
-  <!-- Option B: If you prefer a link instead of embed, uncomment this and remove the iframe.
-  <p><a href="/Aspire_Workforce_Onboarding_SMS_Consent_Form.pdf">View the SMS Consent Form (PDF)</a></p>
-  -->
+  <p class="note">
+    If the embedded preview does not load, use the link above to open the PDF directly.
+  </p>
+
+  <iframe
+    src="/Aspire_Workforce_Onboarding_SMS_Consent_Form.pdf"
+    title="Aspire Workforce SMS Consent Form PDF"
+  ></iframe>
 
 </body>
 </html>
