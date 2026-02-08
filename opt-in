@@ -1,7 +1,72 @@
-<p>
-  Users opt in to receive SMS messages through a direct onboarding and hiring process managed by our staff.
-  Phone numbers are collected during application, onboarding, or assignment setup, and explicit consent to receive
-  operational text messages is obtained and documented in our internal system.
-  Users are informed of the types of messages they will receive, that message frequency may vary, and that they may
-  opt out at any time by replying <strong>STOP</strong>.
-</p>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aspire Workforce SMS Opt-In (Paper Form)</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; margin: 40px auto; max-width: 900px; padding: 0 16px; color:#111; }
+    h1 { font-size: 22px; margin-bottom: 6px; }
+    h2 { font-size: 16px; margin-top: 22px; }
+    .box { border: 1px solid #bbb; border-radius: 10px; padding: 14px 16px; background:#fafafa; }
+    ul { margin-top: 8px; }
+    code { background:#f2f2f2; padding: 2px 6px; border-radius: 6px; }
+    .links a { word-break: break-all; }
+    .note { font-size: 13px; color:#444; }
+    .spacer { height: 10px; }
+    iframe { width: 100%; height: 900px; border: 1px solid #bbb; border-radius: 10px; }
+  </style>
+</head>
+
+<body>
+  <h1>Aspire Workforce SMS Opt-In (Paper Form)</h1>
+  <p class="note">
+    This page documents how subscribers provide consent to receive operational SMS messages from Aspire Workforce.
+  </p>
+
+  <div class="box">
+    <h2>How users opt in</h2>
+    <p>
+      Users opt in during application, onboarding, or assignment setup with staff. The subscriber provides their mobile
+      number and gives explicit consent via a paper onboarding SMS consent form (checkbox + signature). Consent is
+      recorded and retained in our internal system.
+    </p>
+
+    <h2>Disclosures shown to subscribers</h2>
+    <ul>
+      <li><strong>Program name:</strong> Aspire Workforce</li>
+      <li><strong>Message types:</strong> job/shift offers, assignment confirmations, schedule reminders, time-sensitive updates (changes/cancellations), and support-related messages</li>
+      <li><strong>Message frequency:</strong> varies</li>
+      <li><strong>Msg &amp; data rates:</strong> may apply</li>
+      <li><strong>Opt-out:</strong> Reply <strong>STOP</strong> to opt out</li>
+      <li><strong>Help:</strong> Reply <strong>HELP</strong> for help or email <strong>support@evergrowthdigitalcreations.com</strong></li>
+    </ul>
+
+    <div class="links">
+      <h2>Policies</h2>
+      <p>
+        <strong>Privacy Policy:</strong>
+        <a href="/privacy.html">https://witty-river-09e162910.2.azurestaticapps.net/privacy.html</a><br />
+        <strong>Terms &amp; Conditions:</strong>
+        <a href="/terms.html">https://witty-river-09e162910.2.azurestaticapps.net/terms.html</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="spacer"></div>
+
+  <h2>Opt-in form (example)</h2>
+  <p class="note">
+    Below is the onboarding SMS consent form used to capture the subscriber's mobile number and explicit consent.
+    (Personal data should be redacted in any completed copies.)
+  </p>
+
+  <!-- Option A: Embed the PDF (recommended). Upload the PDF to the same static site and set the path below. -->
+  <iframe src="/Aspire_Workforce_Onboarding_SMS_Consent_Form.pdf" title="Aspire Workforce SMS Consent Form PDF"></iframe>
+
+  <!-- Option B: If you prefer a link instead of embed, uncomment this and remove the iframe.
+  <p><a href="/Aspire_Workforce_Onboarding_SMS_Consent_Form.pdf">View the SMS Consent Form (PDF)</a></p>
+  -->
+
+</body>
+</html>
